@@ -1,11 +1,12 @@
 var express = require('express');
 var router = express.Router();
-var http = require('http');
+var http = require('https');
 var app = express();
 var server = app.listen(3000);
 var io = require('socket.io').listen(server);
 var fs = require('fs');
 
+console.log("ok");
 /* GET home page. */
 router.get('/', function(req, res) {
   res.render('index', { title: 'Express' });
