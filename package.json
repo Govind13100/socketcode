@@ -1,0 +1,27 @@
+{
+  "name": "index",
+  "version": "1.0.0",
+  "description": "asss",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.16.2",
+    "socket.io": "^2.0.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CoderRathore/scoket.git"
+  },
+  "keywords": [
+    "he"
+  ],
+  "author": "coder",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CoderRathore/scoket/issues"
+  },
+  "homepage": "https://github.com/CoderRathore/scoket#readme"
+}
